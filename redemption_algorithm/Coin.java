@@ -1,12 +1,9 @@
 package com.example.lib;
 
 import java.sql.Timestamp;
-import java.util.ArrayList;
 
-class Customer {
+class Coin{
     Timestamp validity;
     String transactionId;
     int amount;
-    ArrayList<Coin> coinArrayList;
-    boolean isLoyal;
 }
